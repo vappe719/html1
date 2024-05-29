@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    height: 100vh;
+    background-color: rgba(220, 220, 220, 0.400);
+}
+.div1 {
+    margin: auto;
+    width: 800px;
+    height: 427px;
+    background-color: white;
+}
+.div2 {
+    width: 330px;
+    height: 427px;
+    float: left;
+}
+.div3 {
+    width: 450px;
+    height: 413px;
+    float: right;
+    padding: 7px;
+}
+.button1, .button2 {
+    padding: 10px;
+}
+.button1 {
+    border: 1px solid blue;
+    background-color: dodgerblue;
+    color: white;
+}
+.button2 {
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+}
+.h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h2 {
+    opacity: 0.2;
+}

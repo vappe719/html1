@@ -1,45 +1,31 @@
 .a1{
-    border: solid 5px mediumspringgreen ;
-    width: 50px;
-    height: 20px;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 20px;
+    left: 150px;
+    z-index: -1;
 }
 .a2{
-    border: dashed 5px mediumspringgreen;
-    width: 50px;
-    height: 20px;
+    background-color: chartreuse;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: -50px;
+    left: 250px;
+    z-index: 0;
 }
 .a3{
-    border: dotted 5px mediumspringgreen;
-    width: 50px;
-    height: 20px;
+    background-color: darkgoldenrod;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: -100px;
+    left: 350px;
+    z-index: 1;
 }
-.a4{
-    border: double 5px mediumspringgreen;
-    width: 50px;
-    height: 20px;
-}
-.a5{
-    border: unset 5px mediumspringgreen;
-    width: 50px;
-    height: 20px;
-}
-.a6{
-    border: ridge 5px mediumspringgreen;
-    width: 50px;
-    height: 20px;
-}
-.a7{
-    border: groove 5px mediumspringgreen;
-    width: 50px;
-    height: 20px;
-}
-.a8{
-    border: outset 5px mediumspringgreen;
-    width: 50px;
-    height: 20px;
-}
-.a9{
-    border: inset 5px mediumspringgreen;
-    width: 50px;
-    height: 20px;
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(206,27,84,0.999964951801033) 50%, rgba(0,212,255,1) 100%);
 }
